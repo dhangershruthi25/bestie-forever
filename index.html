@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Little World for My Bestie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main id="app">
+
+        <!-- SCREEN 1: OPENING SCREEN -->
+        <section id="opening-screen" class="screen active">
+
+            <div class="blob blob-one"></div>
+            <div class="blob blob-two"></div>
+            <div class="blob blob-three"></div>
+
+            <div class="particles">
+                <span>✦</span>
+                <span>✧</span>
+                <span>·</span>
+                <span>✦</span>
+                <span>✧</span>
+                <span>·</span>
+            </div>
+
+            <!-- FLOATING HEARTS AND SPARKLES -->
+            <div class="floating-decorations" aria-hidden="true">
+
+                <span class="float-item heart heart-one">♡</span>
+                <span class="float-item heart heart-two">♥</span>
+                <span class="float-item sparkle sparkle-one">✦</span>
+                <span class="float-item heart heart-three">♡</span>
+                <span class="float-item sparkle sparkle-two">✧</span>
+                <span class="float-item heart heart-four">♥</span>
+                <span class="float-item sparkle sparkle-three">✦</span>
+                <span class="float-item heart heart-five">♡</span>
+
+            </div>
+
+            <div class="opening-content">
+
+                <p class="eyebrow">
+                    A PAGE JUST FOR MY FAVOURITE HUMAN
+                </p>
+
+                <h1>To my Favourite Human</h1>
+
+                <p class="opening-description">
+                    A little corner of the internet made
+                    just for our friendship.
+                </p>
+
+                <button id="start-button" class="main-button">
+                    Open your surprise <span>♡</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- SCREEN 2: FRIENDSHIP NOTE -->
+        <section id="friendship-screen" class="screen">
+
+            <div class="blob blob-one"></div>
+            <div class="blob blob-two"></div>
+
+            <div class="friendship-content">
+
+                <p class="eyebrow">A LITTLE REMINDER</p>
+
+                <div class="heart-decoration">♡</div>
+
+                <h2>
+                    Some people make life
+                    a little brighter.
+                </h2>
+
+                <p class="friendship-quote">
+                    "Life feels a little more beautiful
+                    when you have a friend who understands you."
+                </p>
+
+                <p class="friendship-note">
+                    Thank you for being part of my little world.
+                    Here's to our silly moments, endless talks,
+                    unexpected laughs, and memories we'll always keep.
+                </p>
+
+
+                <button id="letter-screen-button" class="main-button">
+                    A secret letter 💌
+                </button>
+
+
+                <button id="timeline-button" class="main-button">
+                    Our friendship journey ✨
+                </button>
+
+                <button id="memories-button" class="main-button">
+                    Our little memories <span>♡</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- SCREEN 4: SECRET LETTER -->
+        <section id="letter-screen" class="screen">
+
+            <div class="letter-content">
+                <p class="eyebrow">JUST FOR YOU 💗</p>
+
+                <h2>A Little Letter</h2>
+
+                <p>
+                    I have something special
+                    to tell you...
+                </p>
+
+                <button id="open-letter-button" class="main-button">
+                    Open your letter 💌
+                </button>
+
+
+                <button id="letter-back-button" class="back-button">
+                    ← Back to Our Friendship
+                </button>
+
+                <div id="secret-letter" hidden>
+                    <h3>To my favourite human ♡</h3>
+
+                    <p>
+                        Thank you for being you.
+                        Thank you for the laughs, the memories,
+                        and all the little moments that mean so much.
+                        I'm really glad you're part of my world.
+                    </p>
+
+                    <p>Forever grateful for our friendship! 💖</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- SCREEN: FRIENDSHIP TIMELINE -->
+        <section id="timeline-screen" class="screen">
+
+            <div class="timeline-content">
+
+                <p class="eyebrow">OUR JOURNEY ♡</p>
+
+                <h2>Little Moments, Big Memories</h2>
+
+                <p class="timeline-intro">
+                    Every friendship has little moments
+                    that become big memories.
+                </p>
+
+                <div class="timeline">
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot">♡</div>
+                        <div class="timeline-card">
+                            <h3>Where It All Began</h3>
+                            <p>Our friendship started, and a new chapter began.</p>
+                            <span>Your beginning date</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot">✦</div>
+                        <div class="timeline-card">
+                            <h3>Our Funniest Moments</h3>
+                            <p>All the silly talks, jokes, and laughs we shared.</p>
+                            <span>Memories we still smile about</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot">💗</div>
+                        <div class="timeline-card">
+                            <h3>Always Here for Each Other</h3>
+                            <p>Through good days and difficult days, our friendship matters.</p>
+                            <span>A bond to treasure</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button id="timeline-back-button" class="main-button">
+                    Back to our story ♡
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- SCREEN 3: PHOTO MEMORIES -->
+        <section id="memories-screen" class="screen">
+
+            <div class="blob blob-one"></div>
+            <div class="blob blob-two"></div>
+
+            <div class="memories-content">
+
+                <p class="eyebrow">LITTLE MOMENTS, BIG MEMORIES</p>
+
+                <h2>Our tiny treasure box</h2>
+
+                <p class="memories-quote">
+                    Every picture holds a little piece
+                    of our friendship. ♡
+                </p>
+
+                <!-- PHOTO GALLERY -->
+                <div class="memory-gallery">
+
+                    <!-- MEMORY PHOTO 1 -->
+                    <div class="memory-card memory-one">
+
+                        <div class="photo-placeholder">
+                            <img src="images/memory1.jpeg" alt="A special friendship memory">
+                        </div>
+
+                        <p class="memory-caption">
+                            A moment to remember ♡
+                        </p>
+
+                    </div>
+
+                    <!-- MEMORY PHOTO 2 -->
+                    <div class="memory-card memory-two">
+
+                        <div class="photo-placeholder">
+                            <img src="images/memory2.jpeg" alt="Another happy memory together">
+                        </div>
+
+                        <p class="memory-caption">
+                            Happiness looks like this ✨
+                        </p>
+
+                    </div>
+
+                    <!-- MEMORY PHOTO 3 -->
+                    <div class="memory-card memory-three">
+
+                        <div class="photo-placeholder">
+                            <img src="images/memory3.jpeg" alt="A favourite moment with my best friend">
+                        </div>
+
+                        <p class="memory-caption">
+                            One for the memory box ♡
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <button id="back-friendship-button" class="main-button">
+                    Back to our note <span>♡</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- FULL-SCREEN PHOTO VIEWER -->
+        <div id="photo-viewer" class="photo-viewer" role="dialog" aria-modal="true" aria-label="Photo viewer"
+            aria-hidden="true">
+
+            <button id="close-photo-viewer" class="close-photo-viewer" type="button" aria-label="Close photo viewer">
+                &times;
+            </button>
+
+            <img id="expanded-photo" class="expanded-photo" src="" alt="Expanded friendship memory">
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
